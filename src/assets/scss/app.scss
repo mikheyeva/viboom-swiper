@@ -1,0 +1,14 @@
+@import "fonts.scss";
+@import "achievement-card";
+@import "unlock-card";
+@import "progress-card";
+@import "achievements.scss";
+@import "swiper.scss";
+@import "app-card.scss";
+@import "app-modal.scss";
+
+.btn, .btn.focus, .btn:focus,  {
+  outline: 0;
+  box-shadow: none!important;
+}
+

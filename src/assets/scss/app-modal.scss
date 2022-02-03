@@ -1,0 +1,55 @@
+$black-ink: #1D1B28;
+$grey-cabinet: #F1F3F9;
+$black-main: #212121;
+$black-ink: #1D1B28;
+
+.vfm {
+  max-width: 414px;
+  width: inherit;
+}
+
+.vfm--overlay {
+  background: $black-ink !important;
+  opacity: 0.8;
+}
+
+.modal--container {
+  margin-top: 40px;
+  background: $grey-cabinet;
+  border-radius: 30px 30px 0 0;
+}
+
+.modal--title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  margin-top: 28px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: $black-main;
+}
+
+.modal--close {
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  width: 12px;
+  height: 12px;
+  border: none;
+}
+.modal--jaw {
+  width: 100%;
+  img{
+    position: absolute;
+    top: 8px;
+    right: 40%;
+  }
+}
+
+

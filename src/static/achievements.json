@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "amount": 2000,
+    "target": 2500,
+    "residue": 500,
+    "date": "12.12.2021"
+
+  },
+  {
+    "id": 1,
+    "amount": 350,
+    "target": 375,
+    "residue": 25,
+    "date": "12.12.2021"
+  },
+  {
+    "id": 2,
+    "amount": 15,
+    "target": 20,
+    "residue": 5,
+    "date": "12.12.2021"
+  }
+]

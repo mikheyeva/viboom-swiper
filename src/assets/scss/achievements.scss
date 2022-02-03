@@ -1,0 +1,74 @@
+$main-background: #F1F3F9;
+$black-main: #212121;
+$grey-body-landing: #505361;
+
+.achievements{
+  width: 414px;
+  padding: 40px 16px 0 16px;
+  background: $main-background;
+
+  @media (max-width: 320px) {
+    width: 320px;
+  }
+
+  &--title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: $black-main;
+    margin-bottom: 16px;
+  }
+
+  &--description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey-body-landing;
+    opacity: 0.8;
+    @media (max-width: 414px) {
+      margin-right: 24px;
+    }
+  }
+  &--user {
+    margin-bottom: 12px;
+    margin-top: 24px;
+
+    &-avatar {
+      height: 38px;
+      width: 38px;
+      margin-right: 12px;
+    }
+
+    &-name{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 140%;
+      color: #212121;
+    }
+
+    &-channel{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: #717883;
+    }
+  }
+
+  &--btn {
+    color: #8E56E9 !important;
+    font-size: 15px !important;
+    line-height: 140% !important;
+    border: none;
+    background-color: inherit;
+      img {
+        margin-left: 8px;
+      }
+  }
+
+}
+
+

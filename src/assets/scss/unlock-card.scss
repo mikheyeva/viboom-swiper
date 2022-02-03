@@ -1,0 +1,45 @@
+$white: #FFFFFF;
+$black-metal: #323232;
+
+.unlock-card{
+  width: 382px;
+  height: 101px;
+  padding: 26px;
+  margin: 32px auto 24px auto;
+
+  @media (max-width: 320px) {
+    width: 288px;
+  }
+
+  &--pic {
+    width: 54px;
+    height: 54px;
+    margin-right: 16px;
+  }
+
+  &--title {
+    color: $black-metal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  &--amount {
+    font-size: 14px;
+    line-height: 18px;
+    color: #505361;
+  }
+
+  &--target {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px;
+  }
+
+  &--main {
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,51 @@
+$gray: #505361;
+$black-main: #212121;
+$black-minor: #717883;
+.progress-card {
+  width: 382px;
+  height: 102px;
+  padding: 16px 0;
+  margin: 12px auto 0 auto;
+
+  @media (max-width: 320px) {
+    width: 288px;
+  }
+
+  &--pic {
+    width: 54px;
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 16px;
+  }
+
+  &--jaw {
+    width: 15px;
+    height: 12px;
+    margin-right: 20px;
+  }
+
+  &--title {
+    color: $gray;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  &--amount {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: $black-main;
+  }
+
+  &--date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:$black-minor;
+  }
+
+}

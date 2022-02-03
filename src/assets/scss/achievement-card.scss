@@ -1,0 +1,120 @@
+$gray: darker(#9798B1, 5%);
+$white: #FFFFFF;
+$black-main: #212121;
+$grey-body-landing: #505361;
+$chill-gray: #9798B1;
+
+@function darker($color, $tone) {
+  @return $color;
+}
+
+.achievement-card {
+  &--main {
+    width: 382px;
+    height: 184px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding: 0 20px;
+
+    @media (max-width: 320px) {
+      width: 288px;
+    }
+  }
+
+  &--modal {
+    padding-left: 16px;
+    padding-right: 12px;
+    margin: 0 6px;
+  }
+
+  &--active {
+    border: 2px solid #4E8AFF;
+    box-shadow: 0 4px 16px rgba(111, 110, 177, 0.12);
+    width: 270px;
+    height: 180px;
+
+    @media (min-width: 321px) and (max-width: 413px){
+      width: 350px;
+    }
+    @media (max-width: 319px){
+      width: 300px;
+    }
+  }
+
+  &--next {
+    width: 270px;
+    height: 200px;
+    background: rgba($chill-gray, 0.5) !important;
+    opacity: 0.5;
+    @media (min-width: 321px) and (max-width: 413px){
+      width: 345px;
+    }
+    @media (max-width: 319px){
+      width: 300px;
+    }
+  }
+
+  &--prev {
+    width: 270px;
+    height: 180px;
+    background: $chill-gray !important;
+    opacity: 0.5;
+    @media (min-width: 321px) and (max-width: 413px){
+      width: 350px;
+    }
+    @media (max-width: 319px){
+      width: 300px;
+    }
+  }
+
+  &--icon {
+    height: 14.82px;
+    width: 21.18px;
+    margin-right: 9.41px;
+  }
+
+  &--amount {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    color: $black-main;
+  }
+
+  &--title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: $black-main;
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+
+  &--date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey-body-landing;
+    opacity: 0.8;
+  }
+
+  &--img {
+    margin-top: 13px;
+    margin-right: 7px;
+  }
+
+  &--button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    padding: 8px 0;
+    width: 115px;
+    height: 34px;
+    background-color: inherit;
+    border: none;
+  }
+}
