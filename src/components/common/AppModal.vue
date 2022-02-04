@@ -43,6 +43,9 @@ export default {
     touchMove(e){
       let modal = document.querySelector('.modal--container');
       modal.style.marginTop = e.changedTouches[0].clientY+'px';
+      if(e.changedTouches[0].clientY < 40){
+        modal.style.marginTop = '40px';
+      }
       if(e.changedTouches[0].clientY >= 100){
         this.$vfm.hide('achieveModal')
       }
