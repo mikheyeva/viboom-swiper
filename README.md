@@ -1,4 +1,5 @@
 # viboom-swiper
+Проект для экранов 414 и 320 px!!
 
 ## Project setup
 ```
